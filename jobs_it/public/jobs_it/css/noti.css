@@ -1,0 +1,124 @@
+/* .notifications {
+    width: 300px;
+    height: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 70px;
+    left: 520px;
+    border-radius: 5px 0px 5px 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.notifications::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.notifications h2 {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #999;
+}
+
+.notifications h2 span {
+    color: #f00;
+}
+
+.notifications-item a{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 6px 9px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.notifications-item a:hover {
+    background-color: #eee;
+    text-decoration: none;
+}
+
+.notifications-item a img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.notifications-item a .text h4 {
+    color: #777;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.notifications-item a .text p {
+    color: #aaa;
+    font-size: 12px;
+} */
+
+/* ######################################################## */
+
+
+.notifications {
+    min-width: 420px;
+    width: 300px;
+}
+
+.dropdown .dropdown-menu {
+    top: 70px;
+}
+.dropdown .dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.notifications-wrapper {
+    overflow: auto;
+    max-height: 250px;
+}
+
+.notifications-wrapper a {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 6px 9px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.notifications-wrapper a:hover {
+    background-color: #eee;
+    text-decoration: none;
+}
+
+.notifications-wrapper a img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.notifications-wrapper .text h4 {
+    color: #777;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.notifications-wrapper .text p {
+    color: #aaa;
+    font-size: 12px;
+} 
